@@ -1,7 +1,7 @@
 def scores(score):
     if score >= 50:
-        return "Pass"
+        print("Pass")
     elif score < 50:
-        return "Fail"
+        print("Fail")
     
 scores(int(input("Enter your score: ")))  # Example usage
